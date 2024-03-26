@@ -10,7 +10,7 @@ const Experties = () =>{
                     <p className='text-balance'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, ut distinctio! Soluta fugiat asperiores incidunt odio harum molestiae dolorem natus.</p>
                     <button className='px-3 py-2 bg-orange-600 rounded-full'>Hire Me</button>
                 </div>
-                <div className='w-full flex justify-center space-x-3 flex-wrap pl-20'>{experties.map((itm) => <a href='/' className='px-3 py-1 bg-gray-400 rounded-full mb-3 hover:bg-orange-500'>{itm}</a>)}</div>
+                <div className='w-full flex justify-center space-x-3 flex-wrap pl-20'>{experties.map((itm) => <a href='' className='px-3 py-1 no-underline text-white bg-gray-400 rounded-full mb-3 hover:bg-orange-500'>{itm}</a>)}</div>
             </div>
         </div>
     )

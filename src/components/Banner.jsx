@@ -12,7 +12,8 @@ const Banner = () => {
         startDelay: 200,
         typeSpeed: 40,
         backSpeed: 50,
-        backDelay: 100
+        backDelay: 100,
+        loop: true
       });
 
       return () => {
@@ -30,24 +31,24 @@ const Banner = () => {
                 </h2>
                 <p className='text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa unde deserunt minus voluptatem fugit ipsum animi maiores repellendus dolores possimus modi beatae molestias dignissimos eos architecto, in fuga. Asperiores, at molestiae sapiente incidunt fugit ut! Nostrum temporibus, odio cumque provident!</p>
                 <div className='flex space-x-3 my-3' >
-                <a className='w-11 h-11 hover:bg-orange-600 cursor-pointer bg-gray-800 rounded-full flex justify-center items-center'>
+                <a className='w-11 h-11 no-underline  hover:bg-orange-600 cursor-pointer bg-gray-800 rounded-full flex justify-center items-center'>
                 <i className="fa-brands fa-facebook text-2xl text-white" />
                 </a>
-                <a className='w-11 h-11 hover:bg-orange-600 cursor-pointer bg-gray-800 rounded-full flex justify-center items-center'>
+                <a className='w-11 h-11 no-underline  hover:bg-orange-600 cursor-pointer bg-gray-800 rounded-full flex justify-center items-center'>
                 <i className="fa-brands fa-square-instagram text-2xl text-white" />
                 </a>
-                <a className='w-11 h-11 hover:bg-orange-600 cursor-pointer bg-gray-800 rounded-full flex justify-center items-center'>
+                <a className='w-11 h-11 no-underline  hover:bg-orange-600 cursor-pointer bg-gray-800 rounded-full flex justify-center items-center'>
                 <i className="fa-brands fa-twitter text-2xl text-white" />
                 </a>
-                <a className='w-11 h-11 hover:bg-orange-600 cursor-pointer bg-gray-800 rounded-full flex justify-center items-center'>
+                <a className='w-11 h-11 no-underline  hover:bg-orange-600 cursor-pointer bg-gray-800 rounded-full flex justify-center items-center'>
                 <i className="fa-brands fa-linkedin text-2xl text-white" />
                 </a>
-                <a className='w-11 h-11 hover:bg-orange-600 cursor-pointer bg-gray-800 rounded-full flex justify-center items-center'>
+                <a className='w-11 h-11 no-underline  hover:bg-orange-600 cursor-pointer bg-gray-800 rounded-full flex justify-center items-center'>
                 <i className="fa-brands fa-github text-2xl text-white" />
                 </a>
                 </div>  
                 <div className='mt-4'>
-                <a href="/" className="px-3 py-2 bg-orange-600 rounded-full text-white">Contact Me</a>
+                <a href="/" className="px-3 py-2 no-underline bg-orange-600 rounded-full text-white">Contact Me</a>
                 </div>
                 </div>
             </div>

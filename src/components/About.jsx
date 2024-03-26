@@ -1,4 +1,4 @@
-import cryptix from '../assets/cryptix.jpg'
+import Abd2 from '../assets/Abdullah2.jpg'
 const About = () => {
     return (
         <>
@@ -6,7 +6,7 @@ const About = () => {
             <h1 className="text-center text-4xl font-bold underline">About Me</h1>
             <div className='flex'>
                 <div className='w-full p-20'>
-                    <img src={cryptix} className='w-fit rounded-full' />
+                    <img src={Abd2} className='w-fit rounded-full' />
                 </div>
                 <div className='w-full p-20 space-y-4'>
                     <h1 className='text-4xl font-semibold'>React Native Developer & UI UX Designer</h1>

@@ -1,4 +1,5 @@
 import { useState } from "react"
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
     const [name, setName] = useState("Abdullah Afzal");
@@ -18,7 +19,7 @@ const Navbar = () => {
         <h1 className="text-2xl font-bold">{name}</h1>
       
       <div className="space-x-6">
-        {menuLinks.map(link => <a key={link.id} href={link.link} className="hover:text-orange-600">{link.title}</a>)}
+        {menuLinks.map(link => <Link key={link.id} to={link.link} className=" no-underline text-gray-950 hover:text-orange-600 cursor-pointer">{link.title}</Link>)}
         {/* <a href='/about' className="hover:text-orange-600">About</a>
         <a href='/skills' className="hover:text-orange-600">Skills</a>
         <a href='/portfolio' className="hover:text-orange-600">Portfolio</a>
