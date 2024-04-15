@@ -12,10 +12,23 @@ const AboutScreen = () => {
       
       </div>
       <div className='flex justify-center'><p className='w-2/3'>👨‍💻 I'm a React Native enthusiast, always eager to learn and create awesome mobile apps.
-🌐 Exploring the intricate web of JavaScript is my idea of a good time.
-🎮 Gaming is not just a hobby; it's a way of life! Let's talk gaming strategies and epic wins!
-🕹️ Game development is my secret passion; stay tuned for my exciting game projects.</p></div>
+
+
+</p></div>
+<div className='flex justify-center'>
+      <p className='w-2/3'>🌐 Exploring the intricate web of JavaScript is my idea of a good time.</p>
     </div>
+    <div className='flex justify-center'>
+      <p className='w-2/3'>🎮 Gaming is not just a hobby; it's a way of life! Let's talk gaming strategies and epic wins!</p>
+    </div>
+    <div className='flex justify-center'>
+      <p className='w-2/3'>🕹️ Game development is my secret passion; stay tuned for my exciting game projects.</p>
+    </div>
+    <h1 className='text-center'>🛠️ Languages and Tools</h1>
+    <p>
+JavaScript React Native HTML & CSS Git Node.js Visual Studio Code Xcode Figma Postman</p>
+    </div>
+    
   )
 }
 
